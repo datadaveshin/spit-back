@@ -1,0 +1,68 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  /*margin: 2em;*/
+  min-width: 760px;
+}
+
+.content-container {
+  height: 80vh;
+  /*background-color: yellow;*/
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  /*flex-direction: row;*/
+}
+.input-container {
+  height: 20vh;
+  background-color: green;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+h1 {
+  font-size: 120%
+}
+
+p {
+  font-size: 100%;
+}
+
+input {
+  min-width: 15vw;
+  margin: 0.5em;
+  padding: 1em;
+  /*background-color: pink;*/
+}
+
+label {
+  min-width: 15vw;
+  margin: 0.5em;
+  /*background-color: purple;*/
+  display: block;
+}
+
+.input-card {
+  width: 50em;
+  height: 4em;
+  /*background-color: cyan;*/
+  padding: 2em;
+  margin: 2em;
+}
+.title-card {
+  width: 100vw;
+  height: 2em;
+  display: flex;
+  justify-content: center;
+}
+.paragraph-card {
+  width: 100vw;
+  height: 2em;
+  display: flex;
+  justify-content: center;
+}

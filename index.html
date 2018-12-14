@@ -1,18 +1,35 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title>Repeat Text</title>
-    </head>
-    <body>
-        <label for="box1">Type in me first!!!</label>
+<head>
+    <meta charset="utf-8">
+    <title>Repeat Text</title>
+</head>
+<body>
+    <link rel="stylesheet" href="style.css">
+    <div class="container">        
+        <div class="input-container">
+            <div class="input-card">
+                <label for="box1">Type in me first!!!</label>
+                <input id="box1" type="text" name="" value="" oninput="doSomething(this.value);">
+            </div>
+            <div class="input-card">
+                <label for="box2">No me!</label>
+                <input id="box2" type="text" name="" value="" oninput="doSomethingElse(this.value);">
+            </div>
+        </div>
 
-        <input id="box1" type="text" name="" value="" oninput="doSomething(this.value);">
+        <div class="content-container">
+            <div class="">
+                <div class="title-card">
+                    <h1 id="title">Spit Back</h1>
+                </div>
+                <div class="paragraph-card">
+                    <p id="paragraph">Your input will show up here too!</p>
+                </div>
+            </div>
+        </div>
+    </div>
 
-        <label for="box2">No me!</label>
-        <input id="box2" type="text" name="" value="" oninput="doSomethingElse(this.value);">
-
-        <p id="paragraph">Your input will show up here too!</p>
-        <script src="index.js"></script>
-    </body>
+    <script src="index.js"></script>
+</body>
 </html>

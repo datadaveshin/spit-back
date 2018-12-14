@@ -23,6 +23,7 @@ function theAction(boxOne, text){
         console.log("$box1", $box1);
     }
 
+
     if (text.slice(-5) == "clear") {
         text = "";
         $box1.value = "";
