@@ -1,10 +1,12 @@
 console.log("read index.js");
 
-var outputBox = document.getElementById("output-box");
-var outputH1 = document.getElementById("output-h1");
+var $box1 = document.getElementById("box1");
+var $box2 = document.getElementById("box2");
+var $paragraph = document.getElementById("paragraph");
 
 function doSomething(val){
     console.log("val: " + val);
-    outputBox.value = val;
-    outputH1.textContent = val;
+    console.log("$box2", $box2)
+    $box2.value = val;
+    $paragraph.textContent = val;
 };
